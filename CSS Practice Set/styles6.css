@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#container{
+    height: 300px;
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*used for main axis*/
+    /* align-items: center;   used for cross axis*/ 
+    justify-content: space-around;
+
+}
+#box1{
+    background-color:red ;
+}
+#box2{
+    background-color: yellow ;
+}
+#box3{
+    background-color: green ;
+}
+#box4{
+    background-color:blueviolet ;
+}
+#box5{
+    background-color:blue ;
+}
