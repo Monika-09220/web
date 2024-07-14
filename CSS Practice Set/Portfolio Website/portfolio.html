@@ -10,6 +10,7 @@
     <div id="wrapper">
         <div class="container">
 
+             <!-- navbar -->
             <div class="navbar">
 
                 <div class="name">
@@ -18,13 +19,14 @@
                 </div>
 
                 <div class="nav-items">
-                    <div><a href="#Project">Project</a></div>
-                    <div><a href="#Skills">Skills</a></div>
-                    <div><a href="#Contactme">Contact Me</a></div>
+                    <div><a href="#project">Project</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
                 </div>
                 
             </div>
 
+               <!-- hero-section -->
             <div class="hero-section">
 
                 <div class="faded-text">Monika Poddar</div>
@@ -53,13 +55,15 @@
                         <img src="dots.png" alt="">
                     </div>
                     <div class="user-img">
-                        <img src="UserImage.png" alt="">
+                        <img src="monika.jpg" width="330px" height="400px">
                     </div>
                 </div>
             </div>
-
+            
         </div>
-        <div class="project-section">
+
+           <!-- project-section -->
+        <div class="project-section" id="project">
 
             <h2 class="page-header">Projects</h2>
 
@@ -112,8 +116,8 @@
                         <div class="project-sub-heading">This is a car modification which provide you sheets to protect your car from scratch</div>
                         <div class="btn-grp">
                              <div class="btn-pink btn-project">Read more</div>
-                             <a href=""><i title="GitHubLink" class="fa-brands fa-github"></i></a>
-                            <a href=""><i title="Live Link " class="fa-solid fa-link"></i></a>
+                             <a href=""><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                            <a href=""><i title="Live Link " class="fa-solid fa-link icon"></i></a>
                         </div>
                     </div>
                     
@@ -139,8 +143,8 @@
                         <div class="project-sub-heading">This is a car modification which provide you sheets to protect your car from scratch</div>
                         <div class="btn-grp">
                              <div class="btn-pink btn-project">Read more</div>
-                             <a href=""><i title="GitHubLink" class="fa-brands fa-github"></i></a>
-                            <a href=""><i title="Live Link " class="fa-solid fa-link"></i></a>
+                             <a href=""><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                            <a href=""><i title="Live Link " class="fa-solid fa-link icon"></i></a>
                         </div>
                     </div>
                     
@@ -166,8 +170,8 @@
                         <div class="project-sub-heading">This is a car modification which provide you sheets to protect your car from scratch</div>
                         <div class="btn-grp">
                              <div class="btn-pink btn-project">Read more</div>
-                             <a href=""><i title="GitHubLink" class="fa-brands fa-github"></i></a>
-                            <a href=""><i title="Live Link " class="fa-solid fa-link"></i></a>
+                             <a href=""><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                            <a href=""><i title="Live Link " class="fa-solid fa-link icon"></i></a>
                         </div>
                     </div>
                     
@@ -176,6 +180,7 @@
             </div>
         </div>
 
+             <!-- skill-section -->
         <div id="skills" class=" container skill-container">
             <div class="skill-faded-text">Skills</div>
 
@@ -244,35 +249,53 @@
         
         </div>
 
-        <div class="contact-form-section">
+             <!-- contact-section -->
+        <div class="contactus-form-container" id="contactme">
+            <div class="container">
+                <h1 class="contactus-heading">Contact me</h1>
 
+                <h3 class="contactus-sub-heading">Questions,Thoughts Or Just Want To Say Hello?</h3>
+
+                <div class="form-container">
+                    <form action="">
+                        <div class="formField-container">
+                            <input class="formfield" type="text" id="" name="name" placeholder="Enter your name">
+                            <input class="formfield" type="email" id="" name="email" placeholder="Enter your email">
+                            <input class="formfield" type="text" id="" name="subject" placeholder="Enter your subject">
+                            <textarea class="formfield formfield-textarea" name="message" id="" placeholder="Enter your message" rows="10" cols="30"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn-pink" type="submit" id="submit-btn">Send Message <i class="submit-icon fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer-section -->
+        <footer>
             <div class="container">
 
-                <h1 class="contact-heading">Contact me</h1>
-                <h3 class="contact-sub-heading">Questions, Thoughts Or Just Want To Say Hello?</h3>
+                <div class="footer-wrapper">
 
-                    <div class="contact-form-container">
-                        <form action="">
-                            <div class="form-field-container">
-                                 <input class="form-field" type="text" name="name" id="" placeholder="Enter your name">
-                                 <input class="form-field" type="email" name="email" id="" placeholder="Enter your email address">
-                                 <input class="form-field" type="text" name="subject" id="" placeholder="Enter your subject">
-                                 <textarea class="form-field form-field-textarea" name="message" id="" 
-                                           placeholder="Enter your message" rows="10" cols="30"></textarea>
-                                    
-                            </div>
-                            <div>
-                                <button type="submit" class="btn-pink btn-project" id="submit-btn">
-                                    Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
-                                </button>
-                            </div>
-                        </form>
+                    <div class="footer-faded-text">Monika Poddar</div>
+
+                    <div class="link-wrapper">
+                        <div><a href="#project">Project</a></div>
+                        <div><a href="#skill">Skills</a></div>
+                        <div><a href="#contactme">Contact me</a></div>
                     </div>
 
-
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                        <i class="fa-brands fa-github icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-regular fa-envelope icon"></i>
+                    </div>
             </div>
+        </footer>
 
-        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
