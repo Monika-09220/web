@@ -1,0 +1,13 @@
+.container{
+    height: 800px;
+    background-color: olivedrab;
+    border: 1px solid
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border:1px solid black;
+    color: azure;
+}
